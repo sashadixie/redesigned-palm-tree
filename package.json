@@ -1,0 +1,27 @@
+{
+  "name": "redesigned-palm-tree",
+  "version": "1.0.0",
+  "description": "#CRUD nodejs + mongodb",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "migrate": "migrate-mongo --file './migrations/migrate-mongo-config.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sashadixie/redesigned-palm-tree.git"
+  },
+  "author": "Sokolova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sashadixie/redesigned-palm-tree/issues"
+  },
+  "homepage": "https://github.com/sashadixie/redesigned-palm-tree#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "migrate-mongo": "^8.1.1",
+    "mongoose": "^5.10.0"
+  }
+}
